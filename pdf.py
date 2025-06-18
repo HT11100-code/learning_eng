@@ -1,5 +1,5 @@
 import fitz
-#import re
+import re
 
 doc = fitz.open("./ironman.pdf")
 page = doc[0]

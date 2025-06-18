@@ -1,9 +1,9 @@
 import fitz
 import re
 
-doc = fitz.open("./ironman.pdf")
+doc = fitz.open("pdf/ironman.pdf")
 page = doc[0]
 text = page.get_text()
-r = re.match(r'([a-zA-Z]+)', text)
+words = re.findall(r'([a-zA-Z]+)', text)
 
-print(r.group())
+print("すべての英語の単語（最初の10個）:", words[:10])

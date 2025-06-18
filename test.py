@@ -1,6 +1,9 @@
+import fitz
 import re
 
-text = "abc@xxx.coms"
+doc = fitz.open("./ironman.pdf")
+page = doc[0]
+text = page.get_text()
+r = re.match(r'([a-zA-Z]+)', text)
 
-p = re.compile(r'([a-z]+)@([a-z]+)\.com')
-print(re.match(r'([a-z]+)@([a-z]+)\.com', text))
+print(r.group())

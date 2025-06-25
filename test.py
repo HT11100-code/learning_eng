@@ -5,7 +5,7 @@ import requests
 doc = fitz.open("pdf/ironman.pdf")
 page = doc[0]
 text = page.get_text()
-pattern1 = r'[a-zA-Z]{2,}'
+pattern1 = r'[a-zA-Z]{2,}(?!\b\'\b)'
 patern2 = r''
 words = re.findall(pattern1, text)
 found_words = sorted(set(word.lower() for word in words))

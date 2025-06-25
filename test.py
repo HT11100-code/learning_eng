@@ -4,10 +4,10 @@ import re
 doc = fitz.open("pdf/ironman.pdf")
 page = doc[0]
 text = page.get_text()
-words = re.findall(r'[a-zA-Z]+', text)
-
-# 小文字化して重複排除
+pattern1 = r'[a-zA-Z]+'
+patern2 = r'[^\']'
+words = re.findall(pattern1, text)
 found_words = sorted(set(word.lower() for word in words))
 
-print("英単語リスト:", found_words[:])
-print("単語数:", len(found_words))
+print(f'英単語リスト: {found_words[:]}')
+print(f'単語数: {len(found_words)}')

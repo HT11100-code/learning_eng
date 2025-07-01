@@ -17,4 +17,4 @@ with open(file_path, "w") as file:
         file.write(word + "\n")
 
 print(f'英単語リスト: {found_words[:]}')
-print(f'単語数: {len(found_words)}')
+print(f'単語数: {len(found_words)}') 

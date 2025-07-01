@@ -1,9 +1,14 @@
 beautifulsoup4==4.13.4
 certifi==2025.6.15
 charset-normalizer==3.4.2
+click==8.2.1
 idna==3.10
+joblib==1.5.1
+nltk==3.9.1
 PyMuPDF==1.26.1
+regex==2024.11.6
 requests==2.32.4
 soupsieve==2.7
+tqdm==4.67.1
 typing_extensions==4.14.0
 urllib3==2.4.0

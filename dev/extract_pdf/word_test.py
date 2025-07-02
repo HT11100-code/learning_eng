@@ -11,9 +11,6 @@ pattern1 = r'[a-zA-Z]{2,}(?!\b\'\b)'
 row_words_list = re.findall(pattern1, text)
 unique_words_list = sorted(set(word.lower() for word in row_words_list))
 
-
-
-
 #print(f'row_Words: {row_words_list}\nNum of row_words: {len(row_words_list)}')
 print(f'unique_Words: {unique_words_list}\nNum of unique_words: {len(unique_words_list)}')
 

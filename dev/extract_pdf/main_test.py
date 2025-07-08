@@ -1,7 +1,7 @@
 import fitz
 import nltk
 import re
-nltk.download("all")#3機能一括download（2回目はdownloadされない）(nltk_data容量が3GBになる)
+nltk.download("all")#機能一括download（2回目はdownloadされない）(nltk_data容量が3GBになる)
 
 doc = fitz.open("pdf/ironman.pdf")
 page = doc[0]

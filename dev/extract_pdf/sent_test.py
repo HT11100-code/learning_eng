@@ -4,7 +4,7 @@ import nltk
 
 nltk.download('punkt')
 
-doc = fitz.open("pdf/ironman.pdf")
+doc = fitz.open("text_files/ironman.pdf")
 page = doc[0]
 text = page.get_text()
 text = text.replace('\n', ' ')

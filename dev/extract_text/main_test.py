@@ -2,7 +2,7 @@ import nltk
 
 nltk.download("punkt")
 
-path = "text_files/ironman.txt"
+path = "text_files/peppa.txt"
 
 with open(path)as f:
     text = f.read()

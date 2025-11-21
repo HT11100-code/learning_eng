@@ -5,8 +5,6 @@ import re
 
 
 nltk.download("punkt")
-nltk.download("averaged_perceptron_tagger")
-lemmatizer = WordNetLemmatizer()
 
 path = "text_files/ironman.txt"
 
@@ -31,8 +29,10 @@ def get_wordnet_pos(word):
                 "R": wordnet.ADV}
     return tag_dict.get(tag, wordnet.NOUN)
 
+#count()関数でリスト内の要素ごとの出現回数のカウント
+
 word = ["running", "better", "ate", "cats"]
 print(get_wordnet_pos(word))
 
-print(f'{sorted_row_wordlist}\nNum of words: {len(sorted_row_wordlist)}')
-print(f'{sorted_uniques_wordlist}\nNum of words: {len(sorted_uniques_wordlist)}')
+#print(f'{sorted_row_wordlist}\nNum of words: {len(sorted_row_wordlist)}')
+#print(f'{sorted_uniques_wordlist}\nNum of words: {len(sorted_uniques_wordlist)}')

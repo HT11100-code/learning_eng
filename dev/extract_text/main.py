@@ -7,10 +7,10 @@ nltk.download("punkt")
 nltk.download("wordnet")
 nltk.download("averaged_perceptron_tagger")
 
-processor = textExtractor(pathlib.Path("text_files/ironman.txt"))
 
 text = pathlib.Path("text_files/ironman.txt").read_text()
 extractor = textExtractor(text)
+
 for sentence in extractor.extract_sentences():
     print(f'{sentence}')
 print('----------------------------------------------')

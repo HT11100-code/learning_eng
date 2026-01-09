@@ -1,0 +1,2153 @@
+[
+    {
+        "id": "5750919a-a16b-46bf-ba17-e09db1b59ab5",
+        "original_text": "I feel like you're driving me to a court-martial.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "feel",
+                "lemma": "feel",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": false
+            },
+            {
+                "text": "like",
+                "lemma": "like",
+                "pos": "SCONJ",
+                "tag": "IN",
+                "is_stop": false
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'re",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "driving",
+                "lemma": "drive",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": "me",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "to",
+                "lemma": "to",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "court",
+                "lemma": "court",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "-",
+                "lemma": "-",
+                "pos": "PUNCT",
+                "tag": "HYPH",
+                "is_stop": false
+            },
+            {
+                "text": "martial",
+                "lemma": "martial",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "5d1aafd0-dc96-46cc-bfa7-47229b756d02",
+        "original_text": "This is crazy.",
+        "words": [
+            {
+                "text": "This",
+                "lemma": "this",
+                "pos": "PRON",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "crazy",
+                "lemma": "crazy",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "bcbdff35-34eb-4f31-b177-ed7b89794889",
+        "original_text": "What did I do?",
+        "words": [
+            {
+                "text": "What",
+                "lemma": "what",
+                "pos": "PRON",
+                "tag": "WP",
+                "is_stop": true
+            },
+            {
+                "text": "did",
+                "lemma": "do",
+                "pos": "AUX",
+                "tag": "VBD",
+                "is_stop": true
+            },
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "do",
+                "lemma": "do",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": true
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "efa34245-4fca-45d8-b467-dc37da6b9a44",
+        "original_text": "I fell like you're gonna pull over and snuff me.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "fell",
+                "lemma": "fall",
+                "pos": "VERB",
+                "tag": "VBD",
+                "is_stop": false
+            },
+            {
+                "text": "like",
+                "lemma": "like",
+                "pos": "SCONJ",
+                "tag": "IN",
+                "is_stop": false
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'re",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "gon",
+                "lemma": "go",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": "na",
+                "lemma": "to",
+                "pos": "PART",
+                "tag": "TO",
+                "is_stop": false
+            },
+            {
+                "text": "pull",
+                "lemma": "pull",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": "over",
+                "lemma": "over",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "and",
+                "lemma": "and",
+                "pos": "CCONJ",
+                "tag": "CC",
+                "is_stop": true
+            },
+            {
+                "text": "snuff",
+                "lemma": "snuff",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": "me",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "55b51975-7b30-43f6-827a-063834bef368",
+        "original_text": "You're not allowed to talk?",
+        "words": [
+            {
+                "text": "You",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'re",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "not",
+                "lemma": "not",
+                "pos": "PART",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "allowed",
+                "lemma": "allow",
+                "pos": "VERB",
+                "tag": "VBN",
+                "is_stop": false
+            },
+            {
+                "text": "to",
+                "lemma": "to",
+                "pos": "PART",
+                "tag": "TO",
+                "is_stop": true
+            },
+            {
+                "text": "talk",
+                "lemma": "talk",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "eac394a3-80bc-4d30-8c93-8477fe7452b6",
+        "original_text": "Hey, Forrest.",
+        "words": [
+            {
+                "text": "Hey",
+                "lemma": "hey",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "Forrest",
+                "lemma": "Forrest",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "363c30af-5b4e-4212-adba-b309b46868d3",
+        "original_text": "We can talk, sir.",
+        "words": [
+            {
+                "text": "We",
+                "lemma": "we",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "can",
+                "lemma": "can",
+                "pos": "AUX",
+                "tag": "MD",
+                "is_stop": true
+            },
+            {
+                "text": "talk",
+                "lemma": "talk",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "sir",
+                "lemma": "sir",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "542c8e53-89ff-4d68-80a1-cb6a63ff87ae",
+        "original_text": "Oh, I see.",
+        "words": [
+            {
+                "text": "Oh",
+                "lemma": "oh",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "see",
+                "lemma": "see",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "dde19f3e-8372-4cd3-a020-cc185671f0b3",
+        "original_text": "So it's personal?",
+        "words": [
+            {
+                "text": "So",
+                "lemma": "so",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "it",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'s",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "personal",
+                "lemma": "personal",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "fd0f54c3-9cba-4ea3-b73d-3f6dbdc931a6",
+        "original_text": "No, you intimidate them.",
+        "words": [
+            {
+                "text": "No",
+                "lemma": "no",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": true
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "intimidate",
+                "lemma": "intimidate",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": false
+            },
+            {
+                "text": "them",
+                "lemma": "they",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "fc426454-1443-4901-9481-8ee8f13a8bfe",
+        "original_text": "Good God, you're worman.",
+        "words": [
+            {
+                "text": "Good",
+                "lemma": "good",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "God",
+                "lemma": "God",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'re",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "worman",
+                "lemma": "worman",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "ab137d5f-6d46-4a04-af9a-e20d2d5b535d",
+        "original_text": "I honeslty--",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "honeslty--",
+                "lemma": "honeslty--",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "104cc010-60d8-4882-9bb6-95e2fb275f12",
+        "original_text": "I couldn't have called that.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "could",
+                "lemma": "could",
+                "pos": "AUX",
+                "tag": "MD",
+                "is_stop": true
+            },
+            {
+                "text": "n't",
+                "lemma": "not",
+                "pos": "PART",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "have",
+                "lemma": "have",
+                "pos": "AUX",
+                "tag": "VB",
+                "is_stop": true
+            },
+            {
+                "text": "called",
+                "lemma": "call",
+                "pos": "VERB",
+                "tag": "VBN",
+                "is_stop": false
+            },
+            {
+                "text": "that",
+                "lemma": "that",
+                "pos": "PRON",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "61537b0f-f736-4d38-8707-137b6b92548f",
+        "original_text": "I'd apologize, but isn't that what we're going for here?",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'d",
+                "lemma": "would",
+                "pos": "AUX",
+                "tag": "MD",
+                "is_stop": true
+            },
+            {
+                "text": "apologize",
+                "lemma": "apologize",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "but",
+                "lemma": "but",
+                "pos": "CCONJ",
+                "tag": "CC",
+                "is_stop": true
+            },
+            {
+                "text": "is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "n't",
+                "lemma": "not",
+                "pos": "PART",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "that",
+                "lemma": "that",
+                "pos": "PRON",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "what",
+                "lemma": "what",
+                "pos": "PRON",
+                "tag": "WP",
+                "is_stop": true
+            },
+            {
+                "text": "we",
+                "lemma": "we",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'re",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "going",
+                "lemma": "go",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": "for",
+                "lemma": "for",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "here",
+                "lemma": "here",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "1d8f64c9-8cff-4b33-97ab-72371ffbe3f6",
+        "original_text": "I thought of you as a soldier first.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "thought",
+                "lemma": "think",
+                "pos": "VERB",
+                "tag": "VBD",
+                "is_stop": false
+            },
+            {
+                "text": "of",
+                "lemma": "of",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "as",
+                "lemma": "as",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "soldier",
+                "lemma": "soldier",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "first",
+                "lemma": "first",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "ece7e051-87ac-4c45-9929-6161349da46c",
+        "original_text": "I'm an airman.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'m",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "an",
+                "lemma": "an",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "airman",
+                "lemma": "airman",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "e62458c4-ec2c-48e7-92eb-ff57444d734e",
+        "original_text": "You have excellent bone structure there.",
+        "words": [
+            {
+                "text": "You",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "have",
+                "lemma": "have",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "excellent",
+                "lemma": "excellent",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "bone",
+                "lemma": "bone",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "structure",
+                "lemma": "structure",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "there",
+                "lemma": "there",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "8455db8f-6beb-47f2-891b-f8a77589bece",
+        "original_text": "I'm kind of having a hard time not looking at you now.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'m",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "kind",
+                "lemma": "kind",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": false
+            },
+            {
+                "text": "of",
+                "lemma": "of",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "having",
+                "lemma": "have",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "hard",
+                "lemma": "hard",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "time",
+                "lemma": "time",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "not",
+                "lemma": "not",
+                "pos": "PART",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "looking",
+                "lemma": "look",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": "at",
+                "lemma": "at",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "now",
+                "lemma": "now",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "7651faf7-3b91-4063-8598-fe1081f6a1a0",
+        "original_text": "Is that weird?",
+        "words": [
+            {
+                "text": "Is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "that",
+                "lemma": "that",
+                "pos": "PRON",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "weird",
+                "lemma": "weird",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "48935930-c991-444c-99ec-e77160b1e856",
+        "original_text": "Come on.",
+        "words": [
+            {
+                "text": "Come",
+                "lemma": "come",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": "on",
+                "lemma": "on",
+                "pos": "ADP",
+                "tag": "RP",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "446aa77b-35dc-44d6-a16d-b7190fed63cc",
+        "original_text": "It's okay, laugh.",
+        "words": [
+            {
+                "text": "It",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'s",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "okay",
+                "lemma": "okay",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "laugh",
+                "lemma": "laugh",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "6d5d844d-1d59-4a44-bfb4-61602019dbfc",
+        "original_text": "Sir, I have question to ask--\nYes, please.",
+        "words": [
+            {
+                "text": "Sir",
+                "lemma": "Sir",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "have",
+                "lemma": "have",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "question",
+                "lemma": "question",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "to",
+                "lemma": "to",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "ask--",
+                "lemma": "ask--",
+                "pos": "NUM",
+                "tag": "CD",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            },
+            {
+                "text": "Yes",
+                "lemma": "yes",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "please",
+                "lemma": "please",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "628b7ff5-ec24-4153-8dcb-adca5565b099",
+        "original_text": "Is it true you went 12 for 12 with last year's Maxim cover models?",
+        "words": [
+            {
+                "text": "Is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "it",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "true",
+                "lemma": "true",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "went",
+                "lemma": "go",
+                "pos": "VERB",
+                "tag": "VBD",
+                "is_stop": false
+            },
+            {
+                "text": "12",
+                "lemma": "12",
+                "pos": "NUM",
+                "tag": "CD",
+                "is_stop": false
+            },
+            {
+                "text": "for",
+                "lemma": "for",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "12",
+                "lemma": "12",
+                "pos": "NUM",
+                "tag": "CD",
+                "is_stop": false
+            },
+            {
+                "text": "with",
+                "lemma": "with",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "last",
+                "lemma": "last",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": true
+            },
+            {
+                "text": "year",
+                "lemma": "year",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "'s",
+                "lemma": "'s",
+                "pos": "PART",
+                "tag": "POS",
+                "is_stop": true
+            },
+            {
+                "text": "Maxim",
+                "lemma": "Maxim",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            },
+            {
+                "text": "cover",
+                "lemma": "cover",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "models",
+                "lemma": "model",
+                "pos": "NOUN",
+                "tag": "NNS",
+                "is_stop": false
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "c6221ab1-e68b-4bea-b5c6-e0e37e40d18b",
+        "original_text": "That is an excellent question.",
+        "words": [
+            {
+                "text": "That",
+                "lemma": "that",
+                "pos": "PRON",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "an",
+                "lemma": "an",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "excellent",
+                "lemma": "excellent",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "question",
+                "lemma": "question",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "80927bef-f784-4a08-9bde-d145e54d0e99",
+        "original_text": "Yes and no.\nMarch",
+        "words": [
+            {
+                "text": "Yes",
+                "lemma": "yes",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": false
+            },
+            {
+                "text": "and",
+                "lemma": "and",
+                "pos": "CCONJ",
+                "tag": "CC",
+                "is_stop": true
+            },
+            {
+                "text": "no",
+                "lemma": "no",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            },
+            {
+                "text": "March",
+                "lemma": "March",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "cc52262b-7b43-4e99-a50b-81a36c968de0",
+        "original_text": "and I had a sceduling confict, but fortunately, the Christmas cover was twins.",
+        "words": [
+            {
+                "text": "and",
+                "lemma": "and",
+                "pos": "CCONJ",
+                "tag": "CC",
+                "is_stop": true
+            },
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "had",
+                "lemma": "have",
+                "pos": "VERB",
+                "tag": "VBD",
+                "is_stop": true
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "sceduling",
+                "lemma": "sceduling",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "confict",
+                "lemma": "confict",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "but",
+                "lemma": "but",
+                "pos": "CCONJ",
+                "tag": "CC",
+                "is_stop": true
+            },
+            {
+                "text": "fortunately",
+                "lemma": "fortunately",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "the",
+                "lemma": "the",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "Christmas",
+                "lemma": "Christmas",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            },
+            {
+                "text": "cover",
+                "lemma": "cover",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "was",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBD",
+                "is_stop": true
+            },
+            {
+                "text": "twins",
+                "lemma": "twin",
+                "pos": "NOUN",
+                "tag": "NNS",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "244df8a6-6bc5-45c3-b870-2315cb6ec06f",
+        "original_text": "Anything else?",
+        "words": [
+            {
+                "text": "Anything",
+                "lemma": "anything",
+                "pos": "PRON",
+                "tag": "NN",
+                "is_stop": true
+            },
+            {
+                "text": "else",
+                "lemma": "else",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "2dcaa074-7ba8-4297-8f68-9ae0e666bc8f",
+        "original_text": "You're kidding me with the hand up, right?\nIs it cool if I take a picture with you?",
+        "words": [
+            {
+                "text": "You",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'re",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "kidding",
+                "lemma": "kid",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": "me",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "with",
+                "lemma": "with",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "the",
+                "lemma": "the",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "hand",
+                "lemma": "hand",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "up",
+                "lemma": "up",
+                "pos": "ADP",
+                "tag": "RP",
+                "is_stop": true
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "right",
+                "lemma": "right",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            },
+            {
+                "text": "Is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "it",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "cool",
+                "lemma": "cool",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "if",
+                "lemma": "if",
+                "pos": "SCONJ",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "take",
+                "lemma": "take",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "picture",
+                "lemma": "picture",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "with",
+                "lemma": "with",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "?",
+                "lemma": "?",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "b6582a60-fd00-4eab-950a-48d93c86c007",
+        "original_text": "Yes, It's very cool.",
+        "words": [
+            {
+                "text": "Yes",
+                "lemma": "yes",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": false
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "It",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'s",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "very",
+                "lemma": "very",
+                "pos": "ADV",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "cool",
+                "lemma": "cool",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "b966a471-f46c-47f5-8694-42214563ed75",
+        "original_text": "I don't wanna see this on your MySpace page.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "do",
+                "lemma": "do",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "n't",
+                "lemma": "not",
+                "pos": "PART",
+                "tag": "RB",
+                "is_stop": true
+            },
+            {
+                "text": "wanna",
+                "lemma": "wanna",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": "see",
+                "lemma": "see",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": true
+            },
+            {
+                "text": "this",
+                "lemma": "this",
+                "pos": "PRON",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "on",
+                "lemma": "on",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "your",
+                "lemma": "your",
+                "pos": "PRON",
+                "tag": "PRP$",
+                "is_stop": true
+            },
+            {
+                "text": "MySpace",
+                "lemma": "MySpace",
+                "pos": "PROPN",
+                "tag": "NNP",
+                "is_stop": false
+            },
+            {
+                "text": "page",
+                "lemma": "page",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "d448c9e1-5c7b-46de-b7f9-a05325bdeb47",
+        "original_text": "Please, no gang signs.",
+        "words": [
+            {
+                "text": "Please",
+                "lemma": "please",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": true
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "no",
+                "lemma": "no",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "gang",
+                "lemma": "gang",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false
+            },
+            {
+                "text": "signs",
+                "lemma": "sign",
+                "pos": "NOUN",
+                "tag": "NNS",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "1a650662-97df-4cc6-a2ba-74d526fc385f",
+        "original_text": "No, throw it up.",
+        "words": [
+            {
+                "text": "No",
+                "lemma": "no",
+                "pos": "INTJ",
+                "tag": "UH",
+                "is_stop": true
+            },
+            {
+                "text": ",",
+                "lemma": ",",
+                "pos": "PUNCT",
+                "tag": ",",
+                "is_stop": false
+            },
+            {
+                "text": "throw",
+                "lemma": "throw",
+                "pos": "VERB",
+                "tag": "VB",
+                "is_stop": false
+            },
+            {
+                "text": "it",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "up",
+                "lemma": "up",
+                "pos": "ADP",
+                "tag": "RP",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "43ddea38-68c7-4e8e-b429-cb9281295687",
+        "original_text": "I'm kidding.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "'m",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "kidding",
+                "lemma": "kid",
+                "pos": "VERB",
+                "tag": "VBG",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    }
+]

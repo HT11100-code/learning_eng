@@ -24,5 +24,4 @@ class textExtractor:
         uniqueWords = set(wordLower)
         return sorted(uniqueWords)
     
-    def get_tagged_words(self, sentence):
         

@@ -7,5 +7,5 @@ if __name__ == "__main__":
     processor = Learningtextprocessor()
     structured_data = processor.process_text(text)
 
-    with open("structured_data.json", "w", encoding="utf-8") as f:
+    with open("JSON_files/structured_data.json", "w", encoding="utf-8") as f:
         json.dump(structured_data, f, ensure_ascii=False, indent=4)

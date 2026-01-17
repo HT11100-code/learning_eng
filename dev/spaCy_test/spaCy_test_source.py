@@ -1,11 +1,10 @@
 import spacy
-import pathlib
 import uuid
 from typing import List, Dict, Any
 from dataclasses import dataclass, asdict
 
 @dataclass
-class WordDate:
+class WordData:
     text: str #単語
     lemma: str #原形
     pos: str #品詞大分類
@@ -16,7 +15,7 @@ class WordDate:
 class SentenceData:
     id : str
     original_text: str
-    words : List[WordDate]
+    words : List[WordData]
 
 class Learningtextprocessor:
     def __init__(self, model_name: str = "en_core_web_sm"):
@@ -37,7 +36,7 @@ class Learningtextprocessor:
             
             word_list = []
             for token in sent:
-                word_info = WordDate(
+                word_info = WordData(
                     text=token.text,
                     lemma=token.lemma_,
                     pos=token.pos_,

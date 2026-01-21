@@ -5,8 +5,6 @@ import io
 from PIL import Image
 import random
 
-# Learningtextprocessorクラスの定義またはインポートが必要です
-# from your_module import Learningtextprocessor 
 
 def noun_words(data):
     """データから名詞を抽出"""
@@ -65,7 +63,7 @@ def display_image(url):
         print(f"画像の取得または表示中にエラーが発生しました: {e}")
 
 
-def word_quiz(word):#wordquiz
+def word_quiz(word):
     user_input = input("画像の英単語を入力: " )
     if user_input.lower() ==word.lower():
         print("正解!!")
@@ -75,34 +73,30 @@ def word_quiz(word):#wordquiz
 
 def main():
     """メインの実行処理"""
-    # 1. テキスト処理の実行
-    # try-exceptでファイル読み込みエラーをケアしても良いでしょう
+    # テキスト処理の実行
     try:
         text = pathlib.Path("text_files/ironman.txt").read_text(encoding='utf-8')
     except FileNotFoundError:
         print("ファイルが見つかりません。")
         return
 
-    # Learningtextprocessorが定義されている前提
     processor = Learningtextprocessor()
     structured_data = processor.process_text(text)
     
-    # 2. 名詞の抽出
+    # 名詞の抽出
     nouns_list = noun_words(structured_data)
-    print(f"抽出された名詞: {nouns_list[:5]}...") # 確認用に出力
+    print(f"抽出された名詞: {nouns_list[:5]}...")
 
-    # 3. 画像検索と表示
-    # ここでは例として "ocean" を検索していますが、
-    # 抽出したnouns_listの中身を使うことも可能です
+    # 画像検索と表示
     query = random.choice(nouns_list) 
     
     image_url = search_unplash_image(query)
 
     if image_url:
         print(f"取得した画像のURL: {image_url}")
-        display_image(image_url) # 関数名を修正しました
+        display_image(image_url) 
 
-    # 4. 単語クイズ
+    # 単語クイズ
     word_quiz(query)
 
 if __name__ == "__main__":

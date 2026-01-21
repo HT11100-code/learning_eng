@@ -1,28 +1,14 @@
 import pathlib
 import json
 import random
+from ..spaCy_test.spaCy_test_source import Learningtextprocessor
 from typing import Optional
 #import streamlit as st
 
-text = pathlib.Path("JSON_files/structured_data.json").read_text()
-#st.title("Word2ImageApp")
+if __name__ == "__main__":
+    text = pathlib.Path("text_files/ironman.txt").read_text()
+    processor = Learningtextprocessor()
+    structured_data = processor.process_text(text)
 
-def get_random_noun_word(self) -> Optional[str]:
-    try:
-        structured_data = json.loads(text)
-        noun_words = []
-
-        for sentence in structured_data:
-            for word in sentence["words"]:
-                if word["pos"] == "NOUN" and not word["is_stop"]:
-                    noun_words.append(word["text"])
-                    
-                if not noun_words:
-                    return None
-                return random.choice(noun_words)
-    except json.JSONDecodeError:
-        return None
-    
-nounWordslist = get_random_noun_word(text)
-print(nounWordslist)
+    print(structured_data)
                 

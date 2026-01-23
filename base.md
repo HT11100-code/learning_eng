@@ -48,3 +48,10 @@ def process_text(self, text: str) -> List[Dict[str, Any]]
 - 空の文はスキップ
 - 各単語の詳細情報（原形、品詞、タグ、ストップワード判定）を抽出
 - 構造化された辞書形式で処理結果を返す
+---
+__Word2image__
+notes
+   for sentence in structured_data:
+            for word in sentence["words"]:
+                if word["pos"] == "NOUN" and not word["is_stop"]:
+                    noun_words.append(word["text"])

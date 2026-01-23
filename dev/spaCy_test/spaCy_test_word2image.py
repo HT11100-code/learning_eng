@@ -16,7 +16,7 @@ def noun_words(data):
     return nouns
 
 
-def search_unplash_image(query):
+def search_unsplash_image(query):
     """Unsplash APIで画像を検索する"""
     ACCESS_KEY = "OkXOm10V7my1zp7npccYKr5dBQpgWoHlK2KqBT3SJMg"
     url = "https://api.unsplash.com/search/photos"
@@ -85,12 +85,12 @@ def main():
     
     # 名詞の抽出
     nouns_list = noun_words(structured_data)
-    print(f"抽出された名詞: {nouns_list[:5]}...")
+    print(f"抽出された名詞: {nouns_list}...")
 
     # 画像検索と表示
     query = random.choice(nouns_list) 
     
-    image_url = search_unplash_image(query)
+    image_url = search_unsplash_image(query)
 
     if image_url:
         print(f"取得した画像のURL: {image_url}")

@@ -4,16 +4,16 @@ import requests
 import io
 from PIL import Image
 import random
+import json
 
 
-def noun_words(data):
-    """データから名詞を抽出"""
-    nouns = []
-    for sentence in data:
-        for word in sentence['words']:
-            if word['pos'] == 'NOUN':
-                nouns.append(word['text'])
-    return nouns
+def get_sentences_with_nouns(data):
+    filtered_data = [
+        sentence for sentence in data
+        if any(word['pos']== 'NOUN' for word in sentence['words'])
+    ]
+
+    return filtered_data
 
 
 def search_unsplash_image(query):
@@ -25,7 +25,8 @@ def search_unsplash_image(query):
         "query": query,
         "client_id": ACCESS_KEY,
         "per_page": 1,
-        "orientation" : "landscape"
+        #"orientation" : "landscape",
+        "order_by": "relevant"
     }
 
     try:
@@ -83,21 +84,25 @@ def main():
     processor = Learningtextprocessor()
     structured_data = processor.process_text(text)
     
-    # 名詞の抽出
-    nouns_list = noun_words(structured_data)
-    print(f"抽出された名詞: {nouns_list}...")
+    sentences_with_nouns = get_sentences_with_nouns(structured_data)
 
-    # 画像検索と表示
-    query = random.choice(nouns_list) 
+    if not sentences_with_nouns:
+        print("名詞を含む文が見つかりませんでした。")
+        return 
     
-    image_url = search_unsplash_image(query)
+    selected_sentence = random.choice(sentences_with_nouns)
+    nouns = [word for word in selected_sentence['words'] if word['pos'] == 'NOUN']
+    selected_noun = random.choice(nouns)
+    noun_text = selected_noun['text']
 
-    if image_url:
-        print(f"取得した画像のURL: {image_url}")
-        display_image(image_url) 
+    print(f"選択された文: {selected_sentence['original_text']}")
+    print(f"選択された名詞: {noun_text}")
+    image_url = search_unsplash_image(noun_text)
+    display_image(image_url)
+    word_quiz(noun_text)
 
-    # 単語クイズ
-    word_quiz(query)
+
+
 
 if __name__ == "__main__":
     main()

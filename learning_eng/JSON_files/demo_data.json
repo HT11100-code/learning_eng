@@ -1,0 +1,304 @@
+[
+    {
+        "id": "0e0a2434-6023-49b5-b99b-6fe0d97b9a35",
+        "original_text": "My throat hurts when I wake up.",
+        "words": [
+            {
+                "text": "My",
+                "lemma": "my",
+                "pos": "PRON",
+                "tag": "PRP$",
+                "is_stop": true
+            },
+            {
+                "text": "throat",
+                "lemma": "throat",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false,
+                "image_path": "learning_eng/images/throat.png"
+            },
+            {
+                "text": "hurts",
+                "lemma": "hurt",
+                "pos": "VERB",
+                "tag": "VBZ",
+                "is_stop": false
+            },
+            {
+                "text": "when",
+                "lemma": "when",
+                "pos": "SCONJ",
+                "tag": "WRB",
+                "is_stop": true
+            },
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "wake",
+                "lemma": "wake",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": false
+            },
+            {
+                "text": "up",
+                "lemma": "up",
+                "pos": "ADP",
+                "tag": "RP",
+                "is_stop": true
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "5ebd9e05-521d-4cc7-88aa-0c61a9e6dd6c",
+        "original_text": "Raccoons are small and cute.",
+        "words": [
+            {
+                "text": "Raccoons",
+                "lemma": "raccoon",
+                "pos": "NOUN",
+                "tag": "NNS",
+                "is_stop": false,
+                "image_path": "learning_eng/images/raccoon.png"
+            },
+            {
+                "text": "are",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBP",
+                "is_stop": true
+            },
+            {
+                "text": "small",
+                "lemma": "small",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": "and",
+                "lemma": "and",
+                "pos": "CCONJ",
+                "tag": "CC",
+                "is_stop": true
+            },
+            {
+                "text": "cute",
+                "lemma": "cute",
+                "pos": "ADJ",
+                "tag": "JJ",
+                "is_stop": false
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "4fc3cc04-40e7-4958-a10c-a7b2ef90ce0b",
+        "original_text": "A mage who has lived more than 1,000 years.",
+        "words": [
+            {
+                "text": "A",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "mage",
+                "lemma": "mage",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false,
+                "image_path": "learning_eng/images/mage.png"
+            },
+            {
+                "text": "who",
+                "lemma": "who",
+                "pos": "PRON",
+                "tag": "WP",
+                "is_stop": true
+            },
+            {
+                "text": "has",
+                "lemma": "have",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "lived",
+                "lemma": "live",
+                "pos": "VERB",
+                "tag": "VBN",
+                "is_stop": false
+            },
+            {
+                "text": "more",
+                "lemma": "more",
+                "pos": "ADJ",
+                "tag": "JJR",
+                "is_stop": true
+            },
+            {
+                "text": "than",
+                "lemma": "than",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "1,000",
+                "lemma": "1,000",
+                "pos": "NUM",
+                "tag": "CD",
+                "is_stop": false
+            },
+            {
+                "text": "years",
+                "lemma": "year",
+                "pos": "NOUN",
+                "tag": "NNS",
+                "is_stop": false,
+                "image_path": "learning_eng/images/years.png"
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "a3e15093-5311-4669-90bc-d0dd3788cf0b",
+        "original_text": "It is a sloth.",
+        "words": [
+            {
+                "text": "It",
+                "lemma": "it",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "is",
+                "lemma": "be",
+                "pos": "AUX",
+                "tag": "VBZ",
+                "is_stop": true
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "sloth",
+                "lemma": "sloth",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false,
+                "image_path": "learning_eng/images/sloth.png"
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            },
+            {
+                "text": "\n",
+                "lemma": "\n",
+                "pos": "SPACE",
+                "tag": "_SP",
+                "is_stop": false
+            }
+        ]
+    },
+    {
+        "id": "a19a9625-4a34-4460-8881-e8deb2b346ed",
+        "original_text": "I like a dog.",
+        "words": [
+            {
+                "text": "I",
+                "lemma": "I",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "like",
+                "lemma": "like",
+                "pos": "VERB",
+                "tag": "VBP",
+                "is_stop": false
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "dog",
+                "lemma": "dog",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false,
+                "image_path": "learning_eng/images/dog.png"
+            },
+            {
+                "text": ".",
+                "lemma": ".",
+                "pos": "PUNCT",
+                "tag": ".",
+                "is_stop": false
+            }
+        ]
+    }
+]

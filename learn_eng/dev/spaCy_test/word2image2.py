@@ -65,7 +65,7 @@ def display_quiz(nouns_info):
     # クイズフォーム
     with st.form(key=f"quiz_form_{noun['source_id']}"):
         # 答え入力
-        user_answer = st.text_input("答えを入力してください:", key=f"answer_{noun['source_id']}")
+        user_answer = st.text_input("答えを入力してください:", key=f"answer_{noun['source_id']}", autocomplete="off")
         
         # フォーム送信ボタン（エンターキーでも動作）
         submitted = st.form_submit_button("答えを確認")

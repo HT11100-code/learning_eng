@@ -5,6 +5,10 @@ import io
 from PIL import Image
 import random
 import json
+from dotenv import load_dotenv
+import os
+
+load_dotenv('meta.env')
 
 
 def get_sentences_with_nouns(data):
@@ -18,7 +22,7 @@ def get_sentences_with_nouns(data):
 
 def search_unsplash_image(query):
     """Unsplash APIで画像を検索する"""
-    ACCESS_KEY = "OkXOm10V7my1zp7npccYKr5dBQpgWoHlK2KqBT3SJMg"
+    ACCESS_KEY = os.getenv('UNSPLASH_ACCESS_KEY')
     url = "https://api.unsplash.com/search/photos"
 
     params = {

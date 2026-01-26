@@ -284,3 +284,4 @@ wheel==0.45.1
 widgetsnbextension==4.0.14
 wrapt==2.0.1
 streamlit
+python-dotenv

@@ -49,7 +49,7 @@ def display_quiz(nouns_info):
             st.session_state.used_nouns = []
             available = nouns_info
             st.rerun()
-            st.rerun()
+
     
     if 'current_noun' not in st.session_state:
         st.session_state.current_noun = random.choice(available)

@@ -62,7 +62,8 @@ def display_quiz(nouns_info):
     if image_path:
         st.image(image_path, caption="この画像の名詞は何でしょう？")
     else:
-        st.write("画像なし: この単語の名詞は何でしょう？（テキストのみ）")
+        st.write("画像がありませんでした。")
+        return
     
     # クイズフォーム
     with st.form(key=f"quiz_form_{noun['source_id']}"):

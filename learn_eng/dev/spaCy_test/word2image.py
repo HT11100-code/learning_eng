@@ -5,12 +5,12 @@ import os
 
 def extract_nouns_with_context(data):
     """
-    データから名詞を抽出し、元の文脈情報（逆探知用）と共にリスト化する
+    データから名詞を抽出し、元の文脈情報と共にリスト化する
     """
     nouns_info = []
     
     for sentence in data:
-        # 元の文の情報を取得（IDや原文）
+        # 元の文の情報を取得
         source_id = sentence.get('id')
         original_text = sentence.get('original_text')
         
@@ -105,7 +105,7 @@ def display_quiz(nouns_info):
             if user_answer.strip().lower() == word.lower():
                 st.markdown(":white_check_mark: <span style='color: green; font-weight:bold;'>正解！</span>", unsafe_allow_html=True)
             else:
-                st.markdown(f":x: <span style='color: red; font-weight:bold;'>不正解。正解は <span style='font-size: 24px;'> {word} </span> です。</span>", unsafe_allow_html=True)
+                st.markdown(f":x: <span style='color: red; font-weight:bold;'>不正解。正解は <span style='font-size: 24px; color:#000; '> {word} </span> です。</span>", unsafe_allow_html=True)
 
 def main():
     try:

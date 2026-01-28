@@ -1,37 +1,8 @@
 [
     {
-        "id": "0e0a2434-6023-49b5-b99b-6fe0d97b9a35",
-        "original_text": "My throat hurts when I wake up.",
+        "id": "90cb99c8-cefc-4133-8788-7ef92698c770",
+        "original_text": "I thought of you as a soldier first.",
         "words": [
-            {
-                "text": "My",
-                "lemma": "my",
-                "pos": "PRON",
-                "tag": "PRP$",
-                "is_stop": true
-            },
-            {
-                "text": "throat",
-                "lemma": "throat",
-                "pos": "NOUN",
-                "tag": "NN",
-                "is_stop": false,
-                "image_path": "learning_eng/images/throat.png"
-            },
-            {
-                "text": "hurts",
-                "lemma": "hurt",
-                "pos": "VERB",
-                "tag": "VBZ",
-                "is_stop": false
-            },
-            {
-                "text": "when",
-                "lemma": "when",
-                "pos": "SCONJ",
-                "tag": "WRB",
-                "is_stop": true
-            },
             {
                 "text": "I",
                 "lemma": "I",
@@ -40,17 +11,54 @@
                 "is_stop": true
             },
             {
-                "text": "wake",
-                "lemma": "wake",
+                "text": "thought",
+                "lemma": "think",
                 "pos": "VERB",
-                "tag": "VBP",
+                "tag": "VBD",
                 "is_stop": false
             },
             {
-                "text": "up",
-                "lemma": "up",
+                "text": "of",
+                "lemma": "of",
                 "pos": "ADP",
-                "tag": "RP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "you",
+                "lemma": "you",
+                "pos": "PRON",
+                "tag": "PRP",
+                "is_stop": true
+            },
+            {
+                "text": "as",
+                "lemma": "as",
+                "pos": "ADP",
+                "tag": "IN",
+                "is_stop": true
+            },
+            {
+                "text": "a",
+                "lemma": "a",
+                "pos": "DET",
+                "tag": "DT",
+                "is_stop": true
+            },
+            {
+                "text": "soldier",
+                "lemma": "soldier",
+                "pos": "NOUN",
+                "tag": "NN",
+                "is_stop": false,
+                "image_path": "learn_eng/images/soldier.png",
+                "caption": "彼の職業は？"
+            },
+            {
+                "text": "first",
+                "lemma": "first",
+                "pos": "ADV",
+                "tag": "RB",
                 "is_stop": true
             },
             {
@@ -70,7 +78,7 @@
         ]
     },
     {
-        "id": "5ebd9e05-521d-4cc7-88aa-0c61a9e6dd6c",
+        "id": "81960607-133d-4c33-9708-560cc878d1f2",
         "original_text": "Raccoons are small and cute.",
         "words": [
             {
@@ -79,7 +87,8 @@
                 "pos": "NOUN",
                 "tag": "NNS",
                 "is_stop": false,
-                "image_path": "learning_eng/images/raccoon.png"
+                "image_path": "learn_eng/images/raccoon.png",
+                "caption": "この動物は何でしょう？"
             },
             {
                 "text": "are",
@@ -126,8 +135,8 @@
         ]
     },
     {
-        "id": "4fc3cc04-40e7-4958-a10c-a7b2ef90ce0b",
-        "original_text": "A mage who has lived more than 1,000 years.",
+        "id": "b484cadf-603a-40c9-a74a-623ac0b4d914",
+        "original_text": "A mage who has lived more than 1,000.",
         "words": [
             {
                 "text": "A",
@@ -142,7 +151,8 @@
                 "pos": "NOUN",
                 "tag": "NN",
                 "is_stop": false,
-                "image_path": "learning_eng/images/mage.png"
+                "image_path": "learn_eng/images/mage.png",
+                "caption": "フリーレンのように魔力を操る魔法使いをなんという？"
             },
             {
                 "text": "who",
@@ -187,14 +197,6 @@
                 "is_stop": false
             },
             {
-                "text": "years",
-                "lemma": "year",
-                "pos": "NOUN",
-                "tag": "NNS",
-                "is_stop": false,
-                "image_path": "learning_eng/images/years.png"
-            },
-            {
                 "text": ".",
                 "lemma": ".",
                 "pos": "PUNCT",
@@ -211,7 +213,7 @@
         ]
     },
     {
-        "id": "a3e15093-5311-4669-90bc-d0dd3788cf0b",
+        "id": "36672f84-70df-450e-80b5-fc6edc6e1233",
         "original_text": "It is a sloth.",
         "words": [
             {
@@ -241,7 +243,8 @@
                 "pos": "NOUN",
                 "tag": "NN",
                 "is_stop": false,
-                "image_path": "learning_eng/images/sloth.png"
+                "image_path": "learn_eng/images/sloth.png",
+                "caption": "Flashは何の動物？"
             },
             {
                 "text": ".",
@@ -260,7 +263,7 @@
         ]
     },
     {
-        "id": "a19a9625-4a34-4460-8881-e8deb2b346ed",
+        "id": "12fb8064-8995-44c6-bd62-8f011b1a93c3",
         "original_text": "I like a dog.",
         "words": [
             {
@@ -290,7 +293,8 @@
                 "pos": "NOUN",
                 "tag": "NN",
                 "is_stop": false,
-                "image_path": "learning_eng/images/dog.png"
+                "image_path": "learn_eng/images/dog.png",
+                "caption": "ボンドは何の動物？"
             },
             {
                 "text": ".",

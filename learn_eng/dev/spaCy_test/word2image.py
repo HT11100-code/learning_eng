@@ -19,13 +19,13 @@ def extract_nouns_with_context(data):
                 image_path = word.get('image_path')
                 if image_path:
                     # 画像パスを正しい相対パスに調整（spaCy_test/ から見たパス）
-                    image_path = image_path.replace('learning_eng/images/', '../../images/')
+                    image_path = image_path.replace('learn_eng/images/', '../../images/')
                 noun_entry = {
                     "word": word.get('lemma', word['text']),  # 名詞の原型（lemma）を使用
                     "image": image_path, # 画像パス（あれば）
                     "source_id": source_id,        # ★逆探知用のID
                     "source_text": original_text   # ★逆探知用の元の文
-                }
+                }   
                 nouns_info.append(noun_entry)
                 
     return nouns_info
@@ -60,7 +60,7 @@ def display_quiz(nouns_info):
     image_path = noun.get('image')
     
     if image_path:
-        st.image(image_path, caption="この画像の名詞は何でしょう？")
+        st.image(image_path, caption=noun.get("caption"))
     else:
         st.write("画像がありませんでした。")
         return

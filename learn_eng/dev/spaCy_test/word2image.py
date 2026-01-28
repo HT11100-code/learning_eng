@@ -1,6 +1,7 @@
 import json
 import random
 import streamlit as st
+import os
 
 def extract_nouns_with_context(data):
     """
@@ -15,30 +16,28 @@ def extract_nouns_with_context(data):
         
         for word in sentence['words']:
             if word['pos'] == 'NOUN':
-                # 単なる文字列ではなく、辞書として情報をまとめる
                 image_path = word.get('image_path')
+                camption = word.get('caption')
                 if image_path:
-                    # 画像パスを正しい相対パスに調整（spaCy_test/ から見たパス）
                     image_path = image_path.replace('learn_eng/images/', '../../images/')
                 noun_entry = {
-                    "word": word.get('lemma', word['text']),  # 名詞の原型（lemma）を使用
-                    "image": image_path, # 画像パス（あれば）
-                    "source_id": source_id,        # ★逆探知用のID
-                    "source_text": original_text   # ★逆探知用の元の文
+                    "word": word.get('lemma', word['text']),
+                    "image": image_path,
+                    "caption": camption,
+                    "source_id": source_id,
+                    "source_text": original_text
                 }   
                 nouns_info.append(noun_entry)
                 
     return nouns_info
 
+
+
 def display_quiz(nouns_info):
-    """
-    nouns_info からランダムに名詞を選んでクイズ形式で表示する関数
-    """
     if not nouns_info:
         st.write("名詞情報がありません。")
         return
     
-    # セッション状態で問題を保持
     if 'current_noun' not in st.session_state or 'used_nouns' not in st.session_state:
         st.session_state.used_nouns = []
         st.session_state.checked = False
@@ -57,36 +56,56 @@ def display_quiz(nouns_info):
     
     noun = st.session_state.current_noun
     word = noun['word']
-    image_path = noun.get('image')
     
-    if image_path:
-        st.image(image_path, caption=noun.get("caption"))
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    raw_path = noun.get('image')
+    
+    if raw_path:
+        image_path = os.path.join(current_dir, raw_path)
     else:
-        st.write("画像がありませんでした。")
-        return
-    
-    # クイズフォーム
-    with st.form(key=f"quiz_form_{noun['source_id']}"):
-        # 答え入力
+        image_path = None
+
+    col1, col2 = st.columns([30, 20])
+
+    with col1:
+        if image_path:
+            st.image(image_path, use_container_width=True)
+            caption_text = noun.get("caption")
+            st.markdown(
+                f"""
+                <div style="text-align: center; font-size: 18px; color: #555; margin-top: 10px;">
+                    {caption_text}
+                </div>
+                """,
+                unsafe_allow_html=True
+            )
+        else:
+            st.write("画像がありませんでした。")
+
+    with col2:
+        st.write("英単語クイズ")
+        
         user_answer = st.text_input("答えを入力してください:", key=f"answer_{noun['source_id']}", autocomplete="off")
         
-        # フォーム送信ボタン（エンターキーでも動作）
-        submitted = st.form_submit_button("答えを確認")
+        btn_col1, btn_col2 = st.columns([1, 1])
         
-        if submitted:
-            st.session_state.checked = True
+        with btn_col1:
+            if st.button("答えを確認", key=f"check_{noun['source_id']}"):
+                st.session_state.checked = True
+
+        with btn_col2:
+            if st.session_state.checked:
+                if st.button("次の問題", key=f"next_{noun['source_id']}"):
+                    st.session_state.current_noun = random.choice(available)
+                    st.session_state.used_nouns.append(st.session_state.current_noun)
+                    st.session_state.checked = False
+                    st.rerun()
+
+        if st.session_state.checked:
             if user_answer.strip().lower() == word.lower():
-                st.success("正解！")
+                st.markdown(":white_check_mark: <span style='color: green; font-weight:bold;'>正解！</span>", unsafe_allow_html=True)
             else:
-                st.error(f"不正解。正解は '{word}' です。")
-    
-    # チェック済みの場合、次の問題ボタンを表示
-    if st.session_state.checked:
-        if st.button("次の問題", key=f"next_{noun['source_id']}"):
-            st.session_state.current_noun = random.choice(available)
-            st.session_state.used_nouns.append(st.session_state.current_noun)
-            st.session_state.checked = False
-            st.rerun()
+                st.markdown(f":x: <span style='color: red; font-weight:bold;'>不正解。正解は <span style='font-size: 24px;'> {word} </span> です。</span>", unsafe_allow_html=True)
 
 def main():
     try:
@@ -96,7 +115,6 @@ def main():
         print("JSONファイルが見つかりません。")
         return
     
-    # 名詞リスト（詳細情報付き）を取得
     nouns_list = extract_nouns_with_context(data)
     
     # ---------------------------------------------------------
@@ -116,6 +134,8 @@ def main():
     
     # for item in found_items:
     #     print(f"ID: {item['source_id']} | 文: {item['source_text']}")
+
+
 
     # ランダムに名詞の画像を表示（Streamlit用）
     display_quiz(nouns_list)
